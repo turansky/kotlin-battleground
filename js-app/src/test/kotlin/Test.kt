@@ -6,5 +6,6 @@ class Test {
     fun test() {
         assertEquals(14, mppInc(13))
         assertEquals(14, jsInc(13))
+        assertEquals(14, inc(13))
     }
 }
