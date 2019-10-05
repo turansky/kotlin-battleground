@@ -22,6 +22,8 @@ subprojects {
     }
 }
 
+extra.set("kodeinVersion", "6.3.3")
+
 tasks.wrapper {
     gradleVersion = "5.6.2"
     distributionType = Wrapper.DistributionType.ALL
