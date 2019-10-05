@@ -6,7 +6,7 @@ plugins {
     kotlin("js") version "1.3.50" apply false
 }
 
-extra.set("kodeinVersion", "6.3.3")
+extra.set("kodeinVersion", "6.4.0")
 
 allprojects {
     repositories {
