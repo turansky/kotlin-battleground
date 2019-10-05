@@ -5,4 +5,4 @@ pluginManagement {
     }
 }
 
-include("app")
+include("js-app")
