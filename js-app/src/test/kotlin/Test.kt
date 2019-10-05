@@ -3,7 +3,8 @@ import kotlin.test.assertEquals
 
 class Test {
     @Test
-    fun lowerInClamp() {
-        assertEquals(14, inc(13))
+    fun test() {
+        assertEquals(14, mppInc(13))
+        assertEquals(14, jsInc(13))
     }
 }
