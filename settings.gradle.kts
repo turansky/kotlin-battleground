@@ -4,3 +4,5 @@ pluginManagement {
         jcenter()
     }
 }
+
+include("app")

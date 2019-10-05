@@ -1,0 +1,1 @@
+fun inc(num: Int): Int = num + 1
