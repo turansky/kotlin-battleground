@@ -1,0 +1,1 @@
+fun mppInc(num: Int): Int = num + 1
