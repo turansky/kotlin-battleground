@@ -2,8 +2,11 @@ import org.jetbrains.kotlin.gradle.dsl.KotlinJsCompile
 import org.jetbrains.kotlin.gradle.plugin.KotlinJsPluginWrapper
 
 plugins {
+    kotlin("multiplatform") version "1.3.50" apply false
     kotlin("js") version "1.3.50" apply false
 }
+
+extra.set("kodeinVersion", "6.3.3")
 
 allprojects {
     repositories {
@@ -21,8 +24,6 @@ subprojects {
         }
     }
 }
-
-extra.set("kodeinVersion", "6.3.3")
 
 tasks.wrapper {
     gradleVersion = "5.6.2"

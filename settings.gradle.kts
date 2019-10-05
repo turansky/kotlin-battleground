@@ -5,4 +5,5 @@ pluginManagement {
     }
 }
 
+include("mpp-lib")
 include("js-app")
