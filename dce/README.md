@@ -6,5 +6,5 @@
 ```
 
 #### DCE check
-Before DCE - `build/js/packages/dce-yfiles-base/kotlin/dce-yfiles-base.js` 
-After DCE - `build/js/packages/app-minified/dce-yfiles-base.js`
+* Before DCE - `build/js/packages/dce-yfiles-base/kotlin/dce-yfiles-base.js` 
+* After DCE - `build/js/packages/app-minified/dce-yfiles-base.js`
