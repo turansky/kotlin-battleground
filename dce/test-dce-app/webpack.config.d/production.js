@@ -1,0 +1,3 @@
+;(function () {
+  config.mode = 'production'
+})()
