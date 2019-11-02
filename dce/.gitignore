@@ -1,0 +1,8 @@
+.gradle/
+build/
+out/
+web/
+
+# IDEA ignore list
+.idea/
+*.iml
