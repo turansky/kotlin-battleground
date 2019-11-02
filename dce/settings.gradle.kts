@@ -8,3 +8,4 @@ pluginManagement {
 }
 
 include("yfiles-kotlin")
+include("yfiles-base")
