@@ -1,8 +1,9 @@
-package com.test.yfiles
+package com.test.app
 
+import com.test.yfiles.ComparableBase
 import kotlin.js.Date
 
-private class ComparableDate(
+class ComparableDate(
     private val date: Date
 ) : ComparableBase<ComparableDate>() {
     override fun compareTo(other: ComparableDate): Int {
