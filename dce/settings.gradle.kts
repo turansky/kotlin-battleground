@@ -11,3 +11,4 @@ include("yfiles-kotlin")
 include("yfiles-base")
 
 include("test-app")
+include("test-dce-app")
