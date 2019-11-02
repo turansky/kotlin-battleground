@@ -9,3 +9,5 @@ pluginManagement {
 
 include("yfiles-kotlin")
 include("yfiles-base")
+
+include("test-app")
