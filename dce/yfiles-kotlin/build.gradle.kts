@@ -4,7 +4,11 @@ plugins {
 
 kotlin {
     target {
-        browser()
+        browser {
+            webpackTask {
+                sourceMaps = false
+            }
+        }
     }
 
     sourceSets {
