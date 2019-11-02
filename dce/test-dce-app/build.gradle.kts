@@ -40,7 +40,7 @@ tasks {
             outputDirectory = rootProject.buildDir
                 .resolve("js")
                 .resolve("packages")
-                .resolve("${project.name}-minified")
+                .resolve("app-minified")
                 .canonicalPath
         }
 
