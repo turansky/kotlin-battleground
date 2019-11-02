@@ -10,6 +10,8 @@ kotlin {
         browser {
             webpackTask {
                 sourceMaps = false
+
+                dependsOn(tasks.runDceKotlin)
             }
         }
     }
@@ -31,5 +33,17 @@ tasks {
         kotlinOptions {
             moduleKind = "commonjs"
         }
+    }
+
+    runDceKotlin {
+        dceOptions {
+            outputDirectory = rootProject.buildDir
+                .resolve("js")
+                .resolve("packages")
+                .resolve("${project.name}-minified")
+                .canonicalPath
+        }
+
+        keep("dce-test-dce-app.com.test.app.Comparables")
     }
 }
