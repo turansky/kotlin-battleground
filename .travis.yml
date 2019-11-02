@@ -1,6 +1,7 @@
 before_install:
-  - chmod +x gradlew
+  - chmod +x kodein/gradlew
 script:
+  - cd kodein
   - ./gradlew clean build
 notifications:
   email: false
