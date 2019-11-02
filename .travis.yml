@@ -1,8 +1,8 @@
 before_install:
-  - chmod +x dce/gradlew
+  - chmod +x KT-34751/gradlew
   - chmod +x kodein/gradlew
 script:
-  - cd dce
+  - cd KT-34751
   - ./gradlew clean build
   - cd ..
   - cd kodein
