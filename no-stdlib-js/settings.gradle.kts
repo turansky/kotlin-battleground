@@ -9,3 +9,4 @@ pluginManagement {
 }
 
 include("yfiles-kotlin")
+include("app-with-stdlib")
