@@ -1,5 +1,7 @@
 plugins {
     kotlin("js")
+
+    id("com.github.turansky.yfiles")
 }
 
 kotlin {
