@@ -6,5 +6,5 @@
 ```
 
 #### Check
-* With 'stdlib-js' - `build/js/packages/no-stdlib-js-app-with-stdlib/kotlin/no-stdlib-js-app-with-stdlib.js` 
-* Without 'stdlib-js' - `build/js/packages/no-stdlib-js-app-without-stdlib/kotlin/no-stdlib-js-app-without-stdlib.js`
+* With `stdlib-js` - `build/js/packages/no-stdlib-js-app-with-stdlib/kotlin/no-stdlib-js-app-with-stdlib.js` 
+* Without `stdlib-js` - `build/js/packages/no-stdlib-js-app-without-stdlib/kotlin/no-stdlib-js-app-without-stdlib.js`
