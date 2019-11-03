@@ -7,3 +7,5 @@ pluginManagement {
         maven(url = "https://dl.bintray.com/kotlin/kotlin-eap")
     }
 }
+
+include("yfiles-kotlin")
