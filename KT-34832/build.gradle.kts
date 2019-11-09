@@ -1,4 +1,5 @@
 plugins {
+    kotlin("multiplatform") version "1.3.60-eap-143" apply false
     kotlin("js") version "1.3.60-eap-143" apply false
 }
 
