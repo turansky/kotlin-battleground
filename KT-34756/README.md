@@ -1,4 +1,4 @@
-[![CI Status](https://github.com/turansky/kotlin-battleground/workflows/KT-34756/badge.svg)](https://github.com/turansky/kotlin-battleground/actions)
+[![CI Status](https://github.com/turansky/kotlin-battleground/workflows/KT-34756/badge.svg)](https://github.com/turansky/kotlin-battleground/actions?query=workflow:KT-34756)
 
 # Test example for [KT-34756](https://youtrack.jetbrains.com/issue/KT-34756)
 
