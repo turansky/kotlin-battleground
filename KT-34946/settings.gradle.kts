@@ -7,3 +7,7 @@ pluginManagement {
         maven(url = "https://dl.bintray.com/kotlin/kotlin-dev")
     }
 }
+
+include("aaa")
+include("bbb")
+include("ccc")
