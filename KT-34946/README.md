@@ -8,4 +8,4 @@
 ```
 
 #### Check
-* TBD
+* `CCC` distibution - `ccc/distributions/ccc.js`
