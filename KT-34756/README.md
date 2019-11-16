@@ -1,3 +1,5 @@
+[![CI Status](https://github.com/turansky/kotlin-battleground/workflows/KT-34756/badge.svg)](https://github.com/turansky/kotlin-battleground/actions)
+
 # Test example for [KT-34756](https://youtrack.jetbrains.com/issue/KT-34756)
 
 #### Build
