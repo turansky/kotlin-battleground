@@ -15,6 +15,8 @@ kotlin {
         main {
             dependencies {
                 implementation(kotlin("stdlib-js"))
+
+                implementation(project(":bbb"))
             }
         }
     }
