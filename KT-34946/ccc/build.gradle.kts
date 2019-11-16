@@ -8,6 +8,10 @@ kotlin {
             webpackTask {
                 sourceMaps = false
             }
+
+            dceTask {
+                keep("dce-transitive-dependencies-ccc.ccc")
+            }
         }
     }
 
@@ -25,7 +29,7 @@ kotlin {
 tasks {
     compileKotlinJs {
         kotlinOptions {
-            moduleKind = "commonjs"
+            moduleKind = "umd"
         }
     }
 }
