@@ -1,1 +1,0 @@
-fun jsInc(num: Int): Int = num + 1
