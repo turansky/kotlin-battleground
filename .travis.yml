@@ -2,6 +2,7 @@ before_install:
   - chmod +x KT-34751/gradlew
   - chmod +x KT-34756/gradlew
   - chmod +x KT-34832/gradlew
+  - chmod +x KT-34946/gradlew
   - chmod +x kodein/gradlew
 script:
   - cd KT-34751
@@ -11,6 +12,9 @@ script:
   - ./gradlew clean build
   - cd ..
   - cd KT-34832
+  - ./gradlew clean build
+  - cd ..
+  - cd KT-34946
   - ./gradlew clean build
   - cd ..
   - cd kodein
