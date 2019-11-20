@@ -1,13 +1,12 @@
 plugins {
-    kotlin("multiplatform") version "1.3.60-eap-143" apply false
-    kotlin("js") version "1.3.60-eap-143" apply false
+    kotlin("multiplatform") version "1.3.60" apply false
+    kotlin("js") version "1.3.60" apply false
 }
 
 allprojects {
     repositories {
         gradlePluginPortal()
         jcenter()
-        maven(url = "https://dl.bintray.com/kotlin/kotlin-eap")
     }
 }
 
