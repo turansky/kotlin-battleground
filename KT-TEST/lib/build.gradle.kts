@@ -17,6 +17,11 @@ kotlin {
                 implementation(kotlin("stdlib-js"))
             }
         }
+        test {
+            dependencies {
+                implementation(kotlin("test-js"))
+            }
+        }
     }
 }
 
