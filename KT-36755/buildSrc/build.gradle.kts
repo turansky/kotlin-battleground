@@ -16,5 +16,5 @@ dependencies {
     implementation(kotlin("stdlib"))
     implementation(gradleApi())
 
-    compileOnly(kotlin("gradle-plugin"))
+    implementation(kotlin("gradle-plugin"))
 }

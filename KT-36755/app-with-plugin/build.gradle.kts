@@ -2,6 +2,8 @@ plugins {
     kotlin("js")
 }
 
+apply<NoDistributionPlugin>()
+
 kotlin {
     target {
         browser()

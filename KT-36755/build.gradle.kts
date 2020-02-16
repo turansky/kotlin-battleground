@@ -1,5 +1,5 @@
 plugins {
-    kotlin("js") version "1.3.70-eap-184" apply false
+    kotlin("js") apply false
 }
 
 allprojects {
