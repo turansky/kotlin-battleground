@@ -6,3 +6,9 @@ repositories {
     jcenter()
     maven(url = "https://dl.bintray.com/kotlin/kotlin-eap")
 }
+
+dependencies {
+    implementation(kotlin("stdlib"))
+
+    compileOnly(kotlin("gradle-plugin"))
+}
