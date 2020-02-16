@@ -1,5 +1,10 @@
 plugins {
+    id("org.gradle.kotlin.kotlin-dsl") version "1.3.3"
     kotlin("jvm") version "1.3.70-eap-184"
+}
+
+kotlinDslPluginOptions {
+    experimentalWarning.set(false)
 }
 
 repositories {
@@ -9,6 +14,7 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib"))
+    implementation(gradleApi())
 
     compileOnly(kotlin("gradle-plugin"))
 }
