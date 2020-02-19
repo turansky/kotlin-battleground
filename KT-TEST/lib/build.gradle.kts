@@ -1,5 +1,7 @@
+group = "com.test.webpack"
+
 plugins {
-    kotlin("js")
+    kotlin("js") version "1.3.61"
 }
 
 kotlin.target.browser()

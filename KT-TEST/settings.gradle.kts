@@ -1,4 +1,5 @@
 rootProject.name = "KT-TEST"
 
-include("lib")
+includeBuild("lib")
+
 include("app")
