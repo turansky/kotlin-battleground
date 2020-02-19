@@ -2,7 +2,11 @@ plugins {
     kotlin("js")
 }
 
-kotlin.target.browser()
+kotlin.target.browser {
+    dceTask {
+        keep += "KT-TEST-app.Main"
+    }
+}
 
 dependencies {
     implementation(kotlin("stdlib-js"))
