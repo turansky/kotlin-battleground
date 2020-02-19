@@ -2,27 +2,10 @@ plugins {
     kotlin("js")
 }
 
-kotlin {
-    target {
-        browser {
-            webpackTask {
-                sourceMaps = false
-            }
-        }
-    }
+kotlin.target.browser()
 
-    sourceSets {
-        main {
-            dependencies {
-                implementation(kotlin("stdlib-js"))
-            }
-        }
-        test {
-            dependencies {
-                implementation(kotlin("test-js"))
-            }
-        }
-    }
+dependencies {
+    implementation(kotlin("stdlib-js"))
 }
 
 tasks {
