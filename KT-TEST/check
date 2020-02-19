@@ -4,6 +4,6 @@ set -e
 set -o pipefail
 
 cd lib
-./gradlew build publishMavenLocal
+./gradlew clean build publishToMavenLocal
 cd ..
-./gradlew build
+./gradlew clean build

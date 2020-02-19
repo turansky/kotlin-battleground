@@ -3,6 +3,7 @@ version = "0.0.1-KTEST"
 
 plugins {
     kotlin("js") version "1.3.61"
+    id("maven-publish")
 }
 
 repositories {
@@ -25,5 +26,13 @@ tasks {
     wrapper {
         gradleVersion = "6.2"
         distributionType = Wrapper.DistributionType.ALL
+    }
+}
+
+publishing {
+    publications {
+        create<MavenPublication>("mavenKotlin") {
+            from(components["kotlin"])
+        }
     }
 }
