@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+set -e
+set -o pipefail
+
+cd lib
+./gradlew build publishMavenLocal
+cd ..
+./gradlew build

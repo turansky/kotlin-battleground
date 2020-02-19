@@ -1,4 +1,5 @@
 group = "com.test.webpack"
+version = "0.0.1-KTEST"
 
 plugins {
     kotlin("js") version "1.3.61"

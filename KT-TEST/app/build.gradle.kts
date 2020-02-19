@@ -6,7 +6,7 @@ kotlin.target.browser()
 
 dependencies {
     implementation(kotlin("stdlib-js"))
-    implementation("com.test.webpack:lib")
+    implementation("com.test.webpack", "lib", "0.0.1-KTEST")
 }
 
 tasks {
