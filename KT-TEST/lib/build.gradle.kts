@@ -23,6 +23,12 @@ tasks {
         }
     }
 
+    JsJar {
+        from(projectDir) {
+            include("package.json")
+        }
+    }
+
     wrapper {
         gradleVersion = "6.2"
         distributionType = Wrapper.DistributionType.ALL

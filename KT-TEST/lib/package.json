@@ -1,0 +1,7 @@
+{
+  "name": "lib-lib-lib",
+  "version": "1.0.0-20200220",
+  "devDependencies": {
+    "webpack": "^4.41.6"
+  }
+}
