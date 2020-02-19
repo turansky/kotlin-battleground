@@ -20,4 +20,9 @@ tasks {
             moduleKind = "commonjs"
         }
     }
+
+    wrapper {
+        gradleVersion = "6.2"
+        distributionType = Wrapper.DistributionType.ALL
+    }
 }
