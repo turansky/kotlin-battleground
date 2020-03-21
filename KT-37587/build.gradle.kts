@@ -6,6 +6,13 @@ repositories {
     jcenter()
 }
 
+kotlin.target.browser()
+
+dependencies {
+    implementation(kotlin("stdlib-js"))
+    testImplementation(kotlin("test-js"))
+}
+
 tasks {
     wrapper {
         gradleVersion = "6.2.2"
