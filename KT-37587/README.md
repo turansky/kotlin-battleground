@@ -2,5 +2,9 @@
 
 #### Check
 ```
+# 1 - patch not applied (no crash)
+./gradlew build
+
+# 2 - patch applied (crash)
 ./gradlew build
 ```
