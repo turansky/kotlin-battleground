@@ -23,6 +23,10 @@ val CRASH_KARMA_SCRIPT = """
 """.trimIndent()
 
 tasks {
+    named<Delete>("clean") {
+        delete("webpack.config.d")
+    }
+
     named("browserTest") {
         doFirst {
             project.projectDir
