@@ -13,14 +13,23 @@ dependencies {
     testImplementation(kotlin("test-js"))
 }
 
+// language=JavaScript
+// must break karma webpack config
+val CRASH_KARMA_SCRIPT = """
+    ;
+    if (config.mode == 'development') {
+        config = undefined
+    }
+""".trimIndent()
+
 tasks {
     named("browserTest") {
         doFirst {
             project.projectDir
                 .resolve("webpack.config.d")
                 .also { it.mkdir() }
-                .resolve("no-output-library.js")
-                .writeText("; config = {}") // must break webpack config
+                .resolve("crash-karma.js")
+                .writeText(CRASH_KARMA_SCRIPT)
         }
     }
 
