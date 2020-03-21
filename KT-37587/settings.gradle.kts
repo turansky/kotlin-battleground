@@ -1,1 +1,1 @@
-rootProject.name = "KT-37587"
+rootProject.name = "karma-ignore-dynamic-webpack-configs"
