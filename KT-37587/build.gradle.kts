@@ -1,12 +1,19 @@
 plugins {
-    kotlin("js") version "1.3.70"
+    kotlin("js") version "1.4-SNAPSHOT"
 }
 
 repositories {
+    mavenLocal()
     jcenter()
 }
 
-kotlin.target.browser()
+kotlin {
+    js {
+        browser()
+
+        binaries.executable()
+    }
+}
 
 dependencies {
     implementation(kotlin("stdlib-js"))
