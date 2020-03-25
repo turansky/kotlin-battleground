@@ -9,8 +9,9 @@ repositories {
 
 kotlin {
     js {
-        browser()
+        useCommonJs()
 
+        browser()
         binaries.executable()
     }
 }
