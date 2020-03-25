@@ -1,0 +1,5 @@
+function IArrow () {}
+
+export {
+  IArrow
+}
