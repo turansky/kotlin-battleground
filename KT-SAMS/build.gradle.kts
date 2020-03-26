@@ -7,13 +7,11 @@ repositories {
     maven("https://dl.bintray.com/kotlin/kotlin-eap")
 }
 
-kotlin {
-    target {
-        useCommonJs()
+kotlin.target {
+    useCommonJs()
 
-        browser()
-        // processExecutable()
-    }
+    browser()
+    produceExecutable()
 }
 
 dependencies {
