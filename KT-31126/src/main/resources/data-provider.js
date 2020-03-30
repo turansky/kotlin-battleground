@@ -1,7 +1,5 @@
-class DataProvider {
-  constructor (data) {
-    this.data = data
-  }
+function DataProvider (data) {
+  this.data = data
 }
 
 export {
