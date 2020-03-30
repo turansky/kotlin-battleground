@@ -8,7 +8,9 @@ Object.defineProperty(
   DataProvider.prototype,
   'data',
   {
-    get: () => this._data
+    get: function () {
+      return this._data
+    }
   }
 )
 
