@@ -2,6 +2,9 @@
 
 package com.test
 
-external class DataProvider(data: Any) {
+open external class DataProvider(data: String) {
+    constructor(data: Int)
+    constructor(data: Boolean)
+
     val data: Any
 }
