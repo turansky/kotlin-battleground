@@ -21,7 +21,7 @@ class DataProviderTest {
 
     @Test
     fun primaryToSecondary() {
-        val provider = DataProvider(777)
+        val provider = IntDataProvider(777)
 
         assertEquals(777, provider.data)
     }
