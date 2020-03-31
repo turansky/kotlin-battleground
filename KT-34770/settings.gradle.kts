@@ -6,3 +6,12 @@ pluginManagement {
         mavenLocal()
     }
 }
+
+/*
+includeBuild("../../kotlin-fork") {
+    dependencySubstitution {
+        substitute(module("org.jetbrains.kotlin:kotlin-compiler"))
+            .with(project(":include:kotlin-compiler"))
+    }
+}
+*/
