@@ -17,6 +17,8 @@ kotlin {
 
 dependencies {
     implementation(kotlin("stdlib-js"))
+    implementation(npm("@abandonware/noble", "1.9.2-7"))
+
     testImplementation(kotlin("test-js"))
 }
 
