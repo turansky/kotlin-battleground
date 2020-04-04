@@ -6,4 +6,5 @@ web/
 # IDEA ignore list
 .idea/*
 !.idea/icon.png
+!.idea/vcs.xml
 *.iml
