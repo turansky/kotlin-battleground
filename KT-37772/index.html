@@ -103,7 +103,7 @@
 
   const table = `
 | Property name | configurable | enumerable | writable |
-| :-- | :--: | :--: | :--: |
+| --- | :---: | :---: | :---: |
 ${staticDescriptors}
 ${prototypeDescriptors}
 `
@@ -114,14 +114,14 @@ ${prototypeDescriptors}
       .map((prop) => {
         const descriptor = Object.getOwnPropertyDescriptor(o, prop)
         if (!descriptor) {
-          return `| ${prop} | - | - | - |`
+          return `| \`${prop}\` | - | - | - |`
         }
 
         const c = formatValue(descriptor.configurable, false)
         const e = formatValue(descriptor.enumerable, false)
         const w = formatValue(descriptor.writable, false)
 
-        return `| ${prop} | ${c} | ${e} | ${w} |`
+        return `| \`${prop}\` | ${c} | ${e} | ${w} |`
       })
       .join('\n')
   }
