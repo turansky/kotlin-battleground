@@ -4,5 +4,6 @@ out/
 web/
 
 # IDEA ignore list
-.idea/
+.idea/*
+!.idea/icon.png
 *.iml
