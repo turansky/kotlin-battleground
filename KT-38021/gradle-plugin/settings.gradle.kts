@@ -6,5 +6,3 @@ pluginManagement {
         mavenLocal()
     }
 }
-
-includeBuild("gradle-plugin")
