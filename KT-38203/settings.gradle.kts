@@ -1,4 +1,4 @@
-rootProject.name = "subproject-regression"
+rootProject.name = "subprojects-regression"
 
 pluginManagement {
     repositories {
