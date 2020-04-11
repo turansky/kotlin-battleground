@@ -1,4 +1,5 @@
 import org.jetbrains.kotlin.gradle.dsl.KotlinJsCompile
+import org.jetbrains.kotlin.gradle.plugin.KotlinJsPluginWrapper
 
 plugins {
     kotlin("js") version "1.4-M1"
@@ -29,11 +30,21 @@ tasks {
                    Actual module kind: ${kotlinOptions.moduleKind}
                """.trimIndent()
             }
+
+            println("OK")
         }
     }
 
     wrapper {
         gradleVersion = "6.3"
         distributionType = Wrapper.DistributionType.ALL
+    }
+}
+
+allprojects {
+    plugins.withType<KotlinJsPluginWrapper> {
+        tasks.withType<KotlinJsCompile> {
+            kotlinOptions.moduleKind == "commonjs"
+        }
     }
 }
