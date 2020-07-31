@@ -1,17 +1,35 @@
 @JsExport
 @ExperimentalJsExport
+class Data {
+    init {
+        YData()
+        ZData()
+
+        println(YData)
+        println(ZData)
+    }
+}
+
 open class XData {
     val x: Int = 1
 }
 
-@JsExport
-@ExperimentalJsExport
 class YData : XData() {
     val y: Int = 2
+
+    companion object {
+        init {
+            println("yyy")
+        }
+    }
 }
 
-@JsExport
-@ExperimentalJsExport
 class ZData : XData() {
     val z: Int = 3
+
+    companion object {
+        init {
+            println("zzz")
+        }
+    }
 }
