@@ -1,16 +1,17 @@
-external interface UpdateCallback {
-    fun onUpdate()
+@JsExport
+@ExperimentalJsExport
+open class XData {
+    val x: Int = 1
 }
 
 @JsExport
 @ExperimentalJsExport
-class App {
-    fun update(callback: UpdateCallback) {
-        callback.onUpdate()
-    }
+class YData : XData() {
+    val y: Int = 2
+}
 
-    fun testUpdate() {
-        println("testUpdate!!!")
-        // update { println("Start test update!") }
-    }
+@JsExport
+@ExperimentalJsExport
+class ZData : XData() {
+    val z: Int = 3
 }
