@@ -1,6 +1,6 @@
 package com.test.app
 
-external fun interface UpdateCallback {
+external interface UpdateCallback {
     fun onUpdate()
 }
 
@@ -12,6 +12,7 @@ class App {
     }
 
     fun testUpdate() {
-        update { println("Start test update!") }
+        println("testUpdate!!!")
+        // update { println("Start test update!") }
     }
 }

@@ -1,17 +1,17 @@
 plugins {
-    kotlin("js") version "1.4-M1"
+    kotlin("js") version "1.4.0-rc"
 }
 
 repositories {
     jcenter()
-    maven("https://dl.bintray.com/kotlin/kotlin-eap")
+    maven("https://kotlin.bintray.com/kotlin-eap")
 }
 
-kotlin.target {
+kotlin.js {
     useCommonJs()
 
     browser()
-    produceExecutable()
+    binaries.executable()
 }
 
 dependencies {
