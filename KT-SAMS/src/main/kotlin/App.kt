@@ -1,5 +1,3 @@
-package com.test.app
-
 external interface UpdateCallback {
     fun onUpdate()
 }
