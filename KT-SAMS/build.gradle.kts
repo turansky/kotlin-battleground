@@ -4,7 +4,6 @@ plugins {
 
 repositories {
     jcenter()
-    maven("https://kotlin.bintray.com/kotlin-eap")
 }
 
 kotlin.js {
@@ -15,7 +14,6 @@ kotlin.js {
 }
 
 dependencies {
-    implementation(kotlin("stdlib-js"))
     testImplementation(kotlin("test-js"))
 }
 
