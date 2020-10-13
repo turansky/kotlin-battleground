@@ -1,4 +1,4 @@
-rootProject.name = "KT-42364-interface-delegate"
+rootProject.name = "interface-delegate"
 
 pluginManagement {
     repositories {
