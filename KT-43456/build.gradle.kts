@@ -13,6 +13,13 @@ kotlin.js {
     binaries.executable()
 }
 
+// language=JavaScript
+val s = """
+if (config.mode !== 'development') {
+    return
+}
+"""
+
 tasks {
     wrapper {
         gradleVersion = "6.6.1"
