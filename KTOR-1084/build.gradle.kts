@@ -1,5 +1,5 @@
 plugins {
-    kotlin("js") version "1.4.21"
+    kotlin("js") version "1.4.30-M1"
 }
 
 repositories {
@@ -15,7 +15,7 @@ kotlin.js {
 
 dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-js:1.4.2")
-    implementation("io.ktor:ktor-client-js:1.4.3")
+    implementation("io.ktor:ktor-client-js:1.5.0")
 }
 
 tasks {
