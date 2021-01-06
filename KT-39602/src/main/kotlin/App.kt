@@ -13,6 +13,8 @@ external interface IArray {
 @JsExport
 @ExperimentalJsExport
 fun test() {
+    println("Class: $IArray")
+
     val a = IArray.of(13)
     println("Length: ${a.length}")
 
