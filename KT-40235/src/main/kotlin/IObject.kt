@@ -8,9 +8,11 @@ external interface IObject {
 }
 
 @JsName("Array")
-external class IArray {
+external class IArray<T> {
+    val length: Int
+
     companion object {
-        fun of(vararg items: String): Array<out String>
+        fun <T> of(vararg items: T): IArray<out T>
     }
 }
 
