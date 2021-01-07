@@ -2,7 +2,6 @@
 external interface IArray {
     val length: Int
 
-    @Suppress("NESTED_CLASS_IN_EXTERNAL_INTERFACE")
     companion object {
         fun of(item: Any): IArray
 
