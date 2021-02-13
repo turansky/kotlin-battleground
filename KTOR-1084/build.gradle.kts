@@ -3,7 +3,8 @@ plugins {
 }
 
 repositories {
-    jcenter()
+    mavenCentral()
+    maven("https://maven.pkg.jetbrains.space/public/p/ktor/eap")
 }
 
 kotlin.js {
@@ -15,7 +16,7 @@ kotlin.js {
 
 dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-js:1.4.2")
-    implementation("io.ktor:ktor-client-js:1.5.1")
+    implementation("io.ktor:ktor-client-js:master-26")
     implementation(devNpm("webpack-bundle-analyzer", "4.4.0"))
 }
 
