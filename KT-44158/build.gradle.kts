@@ -1,5 +1,9 @@
-repositories {
-    mavenCentral()
+subprojects {
+    repositories {
+        mavenCentral()
+        jcenter()
+        google()
+    }
 }
 
 tasks {
