@@ -13,7 +13,6 @@ pluginManagement {
         val kotlinVersion = version("kotlin")
         kotlin("multiplatform") version kotlinVersion
         kotlin("android") version kotlinVersion
-        kotlin("plugin.parcelize") version kotlinVersion
 
         val androidToolsVersion = version("android.gradle.tools")
         id("com.android.library") version androidToolsVersion

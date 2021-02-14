@@ -22,6 +22,5 @@ fun version(target: String): String =
     props.getProperty("${target}.version")
 
 dependencies {
-    implementation(kotlin("gradle-plugin", version("kotlin")))
     implementation("com.android.tools.build:gradle:${version("android.gradle.tools")}")
 }
