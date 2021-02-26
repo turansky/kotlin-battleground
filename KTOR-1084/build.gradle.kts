@@ -1,12 +1,11 @@
 import org.jetbrains.kotlin.gradle.dsl.KotlinJsCompile
 
 plugins {
-    kotlin("js") version "1.4.30"
+    kotlin("js") version "1.4.31"
 }
 
 repositories {
     mavenCentral()
-    maven("https://maven.pkg.jetbrains.space/public/p/ktor/eap")
 }
 
 kotlin.js {
@@ -18,7 +17,7 @@ kotlin.js {
 
 dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-js:1.4.2")
-    implementation("io.ktor:ktor-client-js:master-26")
+    implementation("io.ktor:ktor-client-js:1.5.2")
     implementation(devNpm("webpack-bundle-analyzer", "4.4.0"))
 }
 
