@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.dsl.KotlinJsCompile
 
 plugins {
-    kotlin("js") version "1.5.0-M1"
+    kotlin("js") version "1.5.0-M2"
 }
 
 repositories {
