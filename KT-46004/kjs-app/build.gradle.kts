@@ -1,0 +1,12 @@
+plugins {
+    kotlin("js")
+}
+
+kotlin.js {
+    moduleName = "kjs-app"
+
+    browser()
+    useCommonJs()
+
+    binaries.executable()
+}

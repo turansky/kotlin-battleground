@@ -1,11 +1,11 @@
-import org.jetbrains.kotlin.gradle.dsl.KotlinJsCompile
-
 plugins {
     kotlin("js") version "1.5.0-RC" apply false
 }
 
-repositories {
-    mavenCentral()
+allprojects {
+    repositories {
+        mavenCentral()
+    }
 }
 
 tasks {
