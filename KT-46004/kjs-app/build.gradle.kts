@@ -10,3 +10,7 @@ kotlin.js {
 
     binaries.executable()
 }
+
+dependencies {
+    runtimeOnly(project(":kjs-worker"))
+}
