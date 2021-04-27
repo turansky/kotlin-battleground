@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.dsl.KotlinJsCompile
 
 plugins {
-    kotlin("js") version "1.5.0-RC"
+    kotlin("js") version "1.5.0"
 }
 
 repositories {
@@ -23,8 +23,7 @@ dependencies {
 
 tasks.withType<KotlinJsCompile>().configureEach {
     kotlinOptions.freeCompilerArgs += listOf(
-        // "-Xir-property-lazy-initialization",
-        "-Xir-per-module"
+        // "-Xir-property-lazy-initialization"
     )
 }
 
