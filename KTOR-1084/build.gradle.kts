@@ -17,7 +17,7 @@ kotlin.js {
 
 dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-js:1.4.3")
-    implementation("io.ktor:ktor-client-js:1.5.3")
+    implementation("io.ktor:ktor-client-js:1.5.4")
     implementation(devNpm("webpack-bundle-analyzer", "4.4.0"))
 }
 
