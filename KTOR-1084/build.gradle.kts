@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.dsl.KotlinJsCompile
 
 plugins {
-    kotlin("js") version "1.5.20"
+    kotlin("js") version "1.5.21"
 }
 
 repositories {
@@ -17,7 +17,7 @@ kotlin.js {
 
 dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-js:1.5.1")
-    implementation("io.ktor:ktor-client-js:1.6.1")
+    implementation("io.ktor:ktor-client-js:1.6.2")
     implementation(devNpm("webpack-bundle-analyzer", "4.4.0"))
 }
 
