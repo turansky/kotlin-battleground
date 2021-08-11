@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.dsl.KotlinJsCompile
 
 plugins {
-    kotlin("js") version "1.5.21"
+    kotlin("js") version "1.5.30-RC"
 }
 
 repositories {
