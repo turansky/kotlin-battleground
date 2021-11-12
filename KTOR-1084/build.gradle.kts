@@ -31,8 +31,6 @@ tasks.withType<KotlinJsCompile>().configureEach {
     }
 }
 
-tasks {
-    wrapper {
-        gradleVersion = "7.1.1"
-    }
+tasks.wrapper {
+    gradleVersion = "7.3"
 }
